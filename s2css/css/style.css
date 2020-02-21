@@ -1,0 +1,53 @@
+
+body{
+    margin:5px 5px 5px 5px;
+    border: 2px solid deeppink;
+    width:95%;
+    padding: 30px;
+}
+
+.text-underline {
+    text-decoration: underline;
+}
+
+header{
+    border: pink solid 2px;
+    background-color: cyan;
+}
+
+nav{
+    background-color: magenta;
+    height: 30px;
+    margin: 50px 20px 5px;
+}
+
+section{
+    background-color: slateblue;
+    border: solid black 2px;
+    margin: 20px 0px;
+    padding: 20px 15px;
+    width: 60%;
+}
+
+aside {
+    background-color: salmon;
+    border: black solid 3px;
+    width: 40%;
+    margin: 20px 0px 20px 20px;
+}
+
+footer{
+    background-color: skyblue;
+    border: blue 3px solid;
+    height: 50px;
+}
+
+.cuadro{
+    height:120px;
+    background-color: pink;
+    margin: 20px 0px;
+}
+
+#contenido {
+    display: flex;
+}

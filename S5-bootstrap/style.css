@@ -1,0 +1,25 @@
+.colorcont{
+    border:deeppink solid 3px;
+}
+.bdheader{
+    background-color: aqua;
+    border: magenta solid 2px;
+}
+.bdsection{
+    background-color:skyblue;
+}
+
+.bdarticle{
+    background-color: pink;
+}
+
+.bdaside{
+    background-color: palevioletred;
+}
+
+.bdfooter{
+    background-color: mediumpurple;
+}
+.bdnav{
+    background-color: mediumvioletred;
+}

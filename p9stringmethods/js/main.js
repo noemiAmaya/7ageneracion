@@ -67,7 +67,7 @@
     semiperimeterT = (parseInt(sideA) + parseInt(sideB) + parseInt(sideC)) / 2
 
     var triangleArea;
-    triangleArea = Math.sqrt(semiperimeterT * (semiperimeterT - sideA) * (semiperimeterT - sideB) * (semiperimeterT - sideC))
+    triangleArea = Math.sqrt(semiperimeterT * (semiperimeterT - parseInt (sideA)) * (semiperimeterT - parseInt (sideB)) * (semiperimeterT - parseInt (sideC)))
 
     console.log(triangleArea)
 

@@ -76,13 +76,38 @@ age= prompt("Ingresa tu edad")
 alert ("Hola soy " + name + " y tengo "+ age + " años")*/
 
 var text
-text= "Cada estudiante tiene su ritmo, cada estudiante tiene su talento,y cada estudiante complementa al estudiante que tiene a su lado"
+text = "Cada estudiante tiene su ritmo, cada estudiante tiene su talento,y cada estudiante complementa al estudiante que tiene a su lado"
+// " tiene su ritmo, cada estudiante tiene su talento,y cada estudiante complementa al estudiante que tiene a su lado"
+// " tiene su talento,y cada estudiante complementa al estudiante que tiene a su lado"
+// " complementa al estudiante que tiene a su lado"
+// " que tiene a su lado"
 var word
-word= "estudiante"
+word = "estudiante"
 var repeat
-repeat=  text.indexOf(word)
+repeat = text.indexOf(word)
 
-console.log (repeat)
+console.log (text.substring(repeat).substring (word.length))
+
+var accountant
+accountant=0
+
+console.log(" el numero de palabras es " + accountant)
+
+
+for ( var i=0; i>-1; i++) {
+
+
+}
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -77,8 +77,7 @@
     } else if (sideA == sideB || sideB == sideC || sideA == sideC) {
         console.log("El triangulo es isosceles")
 
-    } else {
-        (sideA !== sideB && sideB !== sideC && sideC !== sideB)
+    } else { (sideA !== sideB && sideB !== sideC && sideC !== sideB)
 
         console.log("El triangulo es escaleno")
     }

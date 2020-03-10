@@ -5,7 +5,7 @@
 //Declarar la variable numberOfLetters
 //Asignarle a la variable numberOfLetters el valor de fullName.lenght
 
-/*var fullName;
+var fullName;
 fullName= prompt("Insgresa tu nombre completo","Juan Perez Diaz")
 var numberOfLetters;
 numberOfLetters= fullName.length;
@@ -19,13 +19,13 @@ console.log (numberOfLetters)
 //si su nombre tiene menos de 15 caracteres, indicarle mediante un mensaje que su nombre es mmuy corto
 //si tiene más de 15 caracteres indicarle que su nombre es muy largo
 
-//var fullName;
-//fullName= prompt("Insgresa tu nombre completo","Juan Perez Diaz")
-//var numberOfLetters;
-//numberOfLetters= fullName.length;
-//console.log (numberOfLetters)
+var fullName;
+fullName= prompt("Insgresa tu nombre completo","Juan Perez Diaz")
+var numberOfLetters;
+numberOfLetters= fullName.length;
+console.log (numberOfLetters)
 
-/*if (numberOfLetters<15) {
+if (numberOfLetters<15) {
 console.log ("Tu nombre es muy corto")
 
 
@@ -56,7 +56,7 @@ Contar cuántas veces se usa la palabra "estudiante" y reemplazar todas
 las coincidencias por la palabra "Koder", y mostrar el mensaje de nuevo 
 al usuario*/
 
-/*var word;
+var word;
 word= prompt ("Ingresa una palabra")
 var newWord;
 newWord=  word.slice (0,2) + word.slice(-2)
@@ -66,56 +66,29 @@ if(word.length<5){
 
     console.warn ("Error tu palabra contiene menos de 5 caracteres")
 
-}*/
+}
 
-/*var name
+var name
 name= prompt("Ingresa tu nombre")
 var age
 age= prompt("Ingresa tu edad")
 
-alert ("Hola soy " + name + " y tengo "+ age + " años")*/
+alert ("Hola soy " + name + " y tengo "+ age + " años")
+
+//Encontrar cuantas veces se repite la palabra estudiante 
 
 var text
-text = "Cada estudiante tiene su ritmo, cada estudiante tiene su talento,y cada estudiante complementa al estudiante que tiene a su lado"
-// " tiene su ritmo, cada estudiante tiene su talento,y cada estudiante complementa al estudiante que tiene a su lado"
-// " tiene su talento,y cada estudiante complementa al estudiante que tiene a su lado"
-// " complementa al estudiante que tiene a su lado"
-// " que tiene a su lado"
+text = "cada estudiante tiene su ritmo, cada estudiante tiene su talento,y cada estudiante complementa al estudiante que tiene a su lado"
 var word
-word = "estudiante"
-var repeat
-repeat = text.indexOf(word)
+word = "estudiantes"
+var repeat = 0 
 
-console.log (text.substring(repeat).substring (word.length))
-
-var accountant
-accountant=0
-
-console.log(" el numero de palabras es " + accountant)
-
-
-for ( var i=0; i>-1; i++) {
-
-
+for (var i=0; ; i++) {
+    repeat = text.indexOf(word)
+    if (repeat == -1) {
+        break
+    }
+    text = text.substring(repeat + word.length)
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+console.log("la palabra " + word + " se repite: " + i + " veces")

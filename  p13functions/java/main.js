@@ -157,7 +157,7 @@ const array = (namesNum) => {
       let element = prompt(`Ingresa el nombre completo ${i+1}`);
       name.push(element);
     }
-    printNamesInitials(name);
+    nameArray(name);
   }
 
  

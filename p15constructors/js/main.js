@@ -65,5 +65,34 @@ const registerNKoders = () => {
     }
     return koderList
 }
+//Ejercicio
+
+function Snack(nombre, rendimiento, costo) {
+    this.nombre = nombre,
+        this.rendimiento = rendimiento,
+        this.costo = costo,
+        this.favorite = function () {
+
+            return alert(`nuestra botana ${this.nombre} es la más sabrosa`)
+        }
+}
+
+
+var recipeBook = [];
+const requestNRecipes = () => {
+    let numberRecipes = parseInt(prompt("¿Cuántas recetas quieres agregar?"))
+    for (let i = 0; i < numberRecipes; i++) {
+        let nombre = prompt(` ¿ Cuál es el nombre de tu receta ? ${i + 1}`)
+        let rendimiento = prompt(`¿ Para cuántas personas alcanza tu receta? ${i + 1} `)
+        let costo = prompt(` ¿ Qué costo tiene la preparación de tu receta? ${i + 1}`)
+        let recipe = new Snack(nombre, rendimiento, costo)
+        recipeBook.push(recipe)
+
+    }
+    return recipeBook
+
+
+}
+
 
 

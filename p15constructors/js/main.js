@@ -36,4 +36,34 @@ var koder1 = new Koder ("Davod", "Cermeño Moranchel", "14-02-1995", "45868677")
 //agregar a nuestro constructor un método que permita obtener el promedio del koder
 
 
+function Koder(name, lastName, gradeHtml, gradeCss, gradeJs) {
+    this.name = name,
+        this.lastName = lastName,
+        this.gradeHtml = gradeHtml,
+        this.gradeCss = gradeCss,
+        this.gradeJs = gradeJs,
+        this.average = function () {
+            return (this.gradeHtml + this.gradeCss + this.gradeJs) / 3
+
+        }
+}
+
+const registerNKoders = () => {
+
+    let koderList = [];
+    let koder
+    let numberRegister = parseInt(prompt("Ingresa el numero de koders que deseas agregar "))
+
+    for (let i = 0; i < numberRegister; i++) {
+        let name = prompt(`Ingresa el nombre de tu koder ${i + 1}`);
+        let lastName = prompt(`Ingresa el apellido de tu koder ${i + 1}`);
+        let gradeHtml = prompt(`Ingresa la calificación de tu koder en html ${i + 1}`);
+        let gradeCss = prompt(`Ingresa la calificación de tu koder en css  ${i + 1}`);
+        let gradeJs = prompt(`Ingresa la calificación de tu koder en js ${i + 1}`);
+        koder = new Koder(name, lastName, gradeHtml, gradeCss, gradeJs);
+        koderList.push(koder);
+    }
+    return koderList
+}
+
 

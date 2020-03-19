@@ -145,7 +145,7 @@ const averageAssistance = sumAssistance / kodersDb.length
 
 const practicesContainer = document.getElementById("practices-container")
 
-kodersDb.forEach((koder, index) => {
+practicesLess10.forEach((koder, index) => {
 
     let rowKoder = document.createElement("tr")
     let colIndexKoder = document.createElement("td")
@@ -176,7 +176,7 @@ debería tener la siguiente estructura:
 
 const assistanceContainer =document.getElementById ("assistances-container")
 
-kodersDb.forEach((koder,index)=>{
+assistanceLess20.forEach((koder,index)=>{
 
     let rowKoder = document.createElement("tr")
     let colIndexKoder = document.createElement("td")

@@ -1,0 +1,157 @@
+.img-features {
+  height: 75.25px;
+}
+
+.card-profile {
+  width: 30vw;
+}
+
+.img-profile {
+  width: 30px;
+  height: auto;
+}
+
+p {
+  color: white;
+  font-size: 14px;
+}
+
+p.letra-grande {
+  padding-top: 30px;
+  font-size: 35px;
+  font-weight: 400, 700;
+}
+
+.bgcolor {
+  background-color: #0b1523;
+}
+
+.secondcolor {
+  background-color: #181f2a;
+}
+
+.trheecolor {
+  background-color: #1c2431;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: right;
+}
+
+.form-description {
+  background-color: #1c2431;
+  padding: 20px 0px 0px;
+  min-height: 100px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  -webkit-box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.3);
+          box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.3);
+}
+
+.form-data {
+  background-color: #1c2431;
+  padding: 20px;
+  min-height: 100px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  -webkit-box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.3);
+          box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.3);
+}
+
+.form-data div {
+  padding: 10px 0px;
+}
+
+.form-data button {
+  width: 100%;
+}
+
+.button-color {
+  background-color: #4fc4d5;
+}
+
+.logo {
+  padding: 60px 80px;
+}
+
+.info {
+  padding: 10px 80px;
+}
+
+.phonepad {
+  padding: 0px 20px;
+}
+
+.aboutpad {
+  padding: 0px 8px 0px 60px;
+}
+
+.contactUs {
+  padding: 0px;
+}
+
+.socialicon {
+  padding: 0px;
+}
+
+.footer a:link,
+.footer a:visited {
+  color: white;
+}
+
+.iconsocialnetworks {
+  height: 30px;
+  width: 30px;
+}
+
+@media (max-width: 768px) {
+  .phonepad {
+    padding: 0px 15px 25px;
+  }
+  .aboutpad {
+    padding: 0px 15px 10px;
+  }
+  .info {
+    padding: 0px 15px 15px;
+  }
+  .contactUs {
+    padding: 0px 15px 15px;
+  }
+  .socialicon {
+    padding: 0px;
+    margin: 0px 0px 0px 80px;
+  }
+  .iconsocialnetworks {
+    height: 18px;
+    width: 13px;
+  }
+}
+
+.text-color {
+  color: white;
+  font-family: open sans;
+  font-size: 14px;
+}
+
+.list {
+  list-style: none;
+}
+
+/* body fonts*/
+/*Headings, Call-to-actions, Header Navigation*/
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+.font-raleway {
+  font-family: "Raleway", sans-serif;
+}
+/*# sourceMappingURL=style.css.map */

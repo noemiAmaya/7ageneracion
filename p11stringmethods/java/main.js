@@ -80,7 +80,7 @@ alert ("Hola soy " + name + " y tengo "+ age + " años")
 var text
 text = "cada estudiante tiene su ritmo, cada estudiante tiene su talento,y cada estudiante complementa al estudiante que tiene a su lado"
 var word
-word = "estudiantes"
+word = "estudiante"
 var repeat = 0 
 
 for (var i=0; ; i++) {

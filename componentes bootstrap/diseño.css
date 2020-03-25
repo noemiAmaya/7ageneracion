@@ -1,0 +1,29 @@
+.bordecontainer{
+    border: aquamarine solid 3px;
+}
+
+.borderpurple{
+    border: purple solid 3px;
+    height: 150px;
+}
+
+.sectionborder{
+    border: teal solid 3px;
+}
+
+.articleborder{
+    border:deeppink solid 3px;
+}
+
+.asideborder{
+    border: red solid 3px;
+}
+
+.cardul{
+    padding: 2px;
+
+}
+
+.borderheader{
+    border: tomato solid 3px;
+}
